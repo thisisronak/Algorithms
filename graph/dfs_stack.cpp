@@ -1,12 +1,13 @@
 #include <cstdio>
 #include <vector>
 #include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 
 #define MAX 10001
 
 int N, E;
-vector< int > G(MAX);
+vector< int > G[MAX];
 bool flag[MAX];
 int pre[MAX];
 

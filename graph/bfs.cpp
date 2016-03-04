@@ -26,3 +26,6 @@ bool bfs(int s)
 			return false;
 	return true;
 }
+
+
+// 

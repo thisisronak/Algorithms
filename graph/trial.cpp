@@ -31,5 +31,17 @@ void dfs(int v){
     if(!used[i]) dfs(i);
   }
   reverse(ans.begin(), ans.end());
+  cout<<ans.size()<<endl;
  }
 
+int main(){
+  int n,m;
+  cin>>n>>m;
+  for(int i=1;i<=m;i++){
+    int a, b;
+    cin>>a>>b;
+    g[a].push_back(b);
+  }
+  topological_sort();
+  // cout<<ans.size()<<endl;
+} 
