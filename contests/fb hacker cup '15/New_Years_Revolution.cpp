@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//fb hacker cup
 struct node {
 int A;
 int B;
